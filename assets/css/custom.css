@@ -1,0 +1,635 @@
+
+
+
+.webg
+{
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+
+
+  background-image: url("../../assets/images/gif/rr.gif");
+  filter: contrast(1.5);
+
+ z-index: -1;
+
+ 
+  background-attachment: fixed;
+
+
+}
+
+.webg2
+{
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cver;
+
+
+  background-image: url("../../assets/images/gif/m-eye.gif");
+  backdrop-filter: blur(100px);
+
+ z-index: -1;
+
+ 
+  background-attachment: fixed;
+
+
+}
+
+
+
+
+
+
+ 
+/*--------------------------------------------------------------
+  Start of featured projects card
+--------------------------------------------------------------*/
+
+  .feature-card {
+    display: flex;
+    flex-wrap: wrap;
+   width: 100%;
+   margin: 0;
+   text-align: center;
+ 
+}
+
+.feature-card img {
+  
+  width: 100%;
+  height: auto;
+  max-width: 340px;
+  object-fit:contain;
+  overflow: hidden;
+  text-align: center;
+  
+}
+@media (max-width: 900px) {
+  .feature-card img {
+    max-width: 400px;
+    max-height: 400px;
+    
+  }
+ }
+
+@media (max-width: 575px) {
+  .feature-card img {
+    max-width: 280px;
+    max-height: 280px;
+    
+  }
+ }
+
+
+.feature-card .card-title {
+  font-size: 1em;
+  font-family:'work sans' , sans-serif;
+  color: white;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: -1px;
+
+}
+
+.feature-card .card-body  {
+  font-family:'work sans' , sans-serif;
+  width: 98%;
+  color: white;
+  font-size: 0.8em;
+  font-weight: 100;
+  cursor: pointer;
+  text-align: left;
+  margin-top: -1% ;
+  
+}
+
+
+
+
+.feature-card .card-body .category  {
+position: relative;
+color:white;
+font-weight: 300;
+font-size: 0.8em;
+margin:  0;
+
+}
+
+
+
+
+/*--------------------------------------------------------------
+  End of featured projects card
+--------------------------------------------------------------*/
+  
+
+
+
+
+
+
+
+
+
+ 
+/*--------------------------------------------------------------
+  Start of featured projects card - home version
+--------------------------------------------------------------*/
+
+.feature-card-home {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+
+}
+
+.feature-card-home img {
+  
+  width: 100%;
+  max-width: 300px;
+  object-fit:contain;
+  overflow: hidden;
+  text-align: center;
+  margin: 0;
+  
+}
+@media (max-width: 900px) {
+  .feature-card-home img {
+    max-width: 400px;
+
+    
+  }
+ }
+
+@media (max-width: 575px) {
+  .feature-card-home img {
+    max-width: 300px;
+
+  }
+ }
+ 
+
+ 
+.feature-card-home .card-title {
+  font-size: 1em;
+  font-family:'work sans' , sans-serif;
+  color: white;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: -1px;
+
+}
+
+.feature-card-home .card-body  {
+  font-family:'work sans' , sans-serif;
+  width: 98%;
+  color: white;
+  font-size: 0.8em;
+  font-weight: 100;
+  cursor: pointer;
+  text-align: left;
+  margin-top: -1% ;
+  
+}
+
+
+
+
+.feature-card-home .card-body .category  {
+position: relative;
+color:white;
+font-weight: 300;
+font-size: 0.8em;
+margin:  0;
+
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+  End of featured projects card - home version
+--------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+  
+/*--------------------------------------------------------------
+# Start of work with us qoute 
+--------------------------------------------------------------*/
+  
+.work-with-us {
+  position: relative;
+  font-family:'work sans' , sans-serif;
+  color: white;
+  font-size: 1.7em;
+  font-weight: 100;
+  margin-left: 5vw;
+}
+
+@media (max-width: 500px) {
+  .work-with-us {
+    color: white;
+    font-size: 1.1sem;
+    margin-left: 0;
+
+  }
+ }
+    
+
+/*--------------------------------------------------------------
+# end of work with us qoute 
+--------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# start circle button 
+--------------------------------------------------------------*/
+  .btn-circle.btn-sm {
+			width: 30px;
+			height: 30px;
+			padding: 6px 0px;
+			border-radius: 15px;
+			font-size: 8px;
+			text-align: center;
+		}
+		.btn-circle.btn-md {
+			width: 50px;
+			height: 50px;
+			padding: 7px 10px;
+			border-radius: 25px;
+			font-size: 10px;
+			text-align: center;
+		}
+
+        .btn-circle.btn-l {
+			width: 75px;
+			height: 75px;
+			padding: 12px 18px;
+			border-radius: 40px;
+			font-size: 10px;
+      font-weight: 500;
+			text-align: center;
+      color:black;
+		}
+
+		.btn-circle.btn-xl {
+			width: 80px;
+			height: 80px;
+			padding: 10px 16px;
+			border-radius: 50px;
+			font-size: 13px;
+      font-weight: 500;
+			text-align: center;
+		}
+
+    .btn-circle.btn-xxl {
+			width: 100px;
+			height: 100px;
+			padding: 10px 16px;
+			border-radius: 95px;
+			font-size: 10px;
+      font-weight: 700;
+			text-align: center;
+		}
+
+
+
+/*--------------------------------------------------------------
+# end circle button 
+--------------------------------------------------------------*/
+  
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  background: #ffffff;
+  padding: 10px 10px;
+  text-align: center;
+
+}
+
+.clients .col-lg-2 {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.clients img {
+max-height: 120px;
+max-width: 140px;
+
+ filter:grayscale(50) invert(0.2);
+ /* filter:brightness(0) invert(1); */
+ transition: all 0.4s ease-in-out;
+ display: inline-block;
+ padding: 20px 15px;
+}
+
+
+.clients svg {
+
+  filter:grayscale(100) invert(1);
+  /* filter:brightness(0) invert(1); */
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+
+ }
+
+.clients img:hover {
+ filter:none;
+ transform: scale(1.1);
+}
+
+
+.clients svg:hover {
+  filter:none;
+  transform: scale(1.1);
+ }
+
+@media (max-width: 768px) {
+ .clients img {
+ max-width: 120px;
+   
+ }
+}
+
+@media (max-width: 575px) {
+ .clients img {
+  
+  max-width: 120px;
+   
+ }
+}
+
+/*--------------------------------------------------------------
+# End of Clients
+--------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------------------------------------------
+# currently w's header title
+--------------------------------------------------------------*/
+
+.thin-text {
+  
+ 
+  font-weight:100;
+  font-family: 'Work Sans', sans-serif;
+
+  }
+
+
+@media (max-width: 975px) {
+  .thin-text {
+   
+    font-size:70px;
+    
+  }
+ }
+@media (max-width: 575px) {
+  .thin-text {
+    position: absolute;
+    top: 300px;
+    font-size: 55px;
+    -webkit-text-stroke-width: 1.5px;
+  }
+ }
+
+
+/*--------------------------------------------------------------
+# End w's header title
+--------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------------------------------------------
+# team flip card 
+--------------------------------------------------------------*/
+ 
+ 
+ .flip-card {
+ 
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+
+}
+.flip-card img {
+  object-fit: contain;
+  height: auto;
+  width: 100%;
+  opacity: 1;
+}
+
+
+.flip-card .img-top {
+  display: none;
+  position: absolute;
+  margin: auto;
+  top: -25px;
+  left: 30px;
+  text-align: center;
+  z-index: 99;
+
+  
+
+}
+
+
+.flip-card .card-body  {
+  display: none;
+ }
+ .flip-card:hover .card-body{
+   position: absolute;
+  top: 75%;
+  left: 25px;
+  display: block;
+  opacity: 1;
+  z-index: 1111;
+  width: 90%;
+  background-color: #151515ee;
+
+
+}
+ 
+
+
+.flip-card:hover .img-top {
+  transform: scale(1.00);
+  position: center;
+  display: inline;
+  opacity: 1;
+
+  
+
+}
+
+.flip-card .card-subtitle {
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: 0;
+  overflow: hidden;
+  }
+
+
+  .flip-card .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    overflow: hidden;
+    
+    }
+
+
+    @media (max-width: 975px) {
+      .flip-card .card-subtitle {
+        font-size: 15px;
+        }
+      
+      
+        .flip-card .card-title {
+          font-size: 25px;
+          
+          }
+     }
+    @media (max-width: 575px) {
+      .flip-card .card-subtitle {
+        font-size: 13px;
+        }
+      
+      
+        .flip-card .card-title {
+          font-size: 17px;
+          
+          }
+     }
+
+     @media (max-width: 360px) {
+      .flip-card .card-subtitle {
+        font-size: 10px;
+        }
+      
+      
+        .flip-card .card-title {
+          font-size: 15px;
+          
+          
+          }
+
+          .flip-card:hover .card-body{
+  
+           top: 65%;
+
+         }
+     }
+
+
+    
+/*--------------------------------------------------------------
+# team flip card  end
+--------------------------------------------------------------*/
+ 
+.bg-grain{
+background-color: #151515;
+}
+
+
+/*--------------------------------------------------------------
+# Custom audio 
+--------------------------------------------------------------*/
+
+audio {
+  width: 220px;
+  height: 30px;
+
+}
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* We use flex-start here to ensure that the play button is visible even
+   * if we are too small to show all controls.
+   */
+  justify-content: flex-start;
+ 
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  overflow: hidden;
+  text-align: right;
+  bottom: auto;
+  height: 30px;
+  background-color: rgba(20, 20, 20, 0.685);
+  border-radius: 0px;
+  /* The duration is also specified in MediaControlElements.cpp and LayoutTests/media/media-controls.js */
+  transition: opacity 0.1s;
+}
+
+ 
+/*--------------------------------------------------------------
+# End of Custom audio 
+--------------------------------------------------------------*/
+
+.gif{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../assets/videos/try6.gif");
+  background-position:center;
+  opacity: 0.9;
+
+
+}
+
+@media (max-width: 700px) {
+  .gif{
+
+    background-position:auto;
+
+  }
+}
+  
